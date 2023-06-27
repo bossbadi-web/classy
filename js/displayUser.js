@@ -7,7 +7,7 @@ function displayUser(user) {
     <p>Birthday: ${user.birthday}</p>
     <p>Address: ${user.address}</p>
     <p>Email: ${user.email}</p>
-    <p>Password: ${user.password}</p>
+    <p>Password: ${'*'.repeat(user.password.length)}</p>
     <br>
     `;
 }

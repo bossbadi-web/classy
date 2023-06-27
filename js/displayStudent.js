@@ -7,7 +7,7 @@ function displayStudent(student) {
     <p>Birthday: ${student.birthday}</p>
     <p>Address: ${student.address}</p>
     <p>Email: ${student.email}</p>
-    <p>Password: ${student.password}</p>
+    <p>Password: ${'*'.repeat(student.password.length)}</p>
     <br>
     `;
 }
